@@ -1,7 +1,14 @@
-import React from 'react';
+import React from "react";
 import { Button, ListGroup } from "react-bootstrap";
-import { FaGoogle, FaGithub, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import QZone from '../QZone/QZone';
+import {
+  FaGoogle,
+  FaGithub,
+  FaFacebook,
+  FaTwitter,
+  FaInstagram,
+} from "react-icons/fa";
+import QZone from "../QZone/QZone";
+import Ad from "../Ad/Ad";
 
 const RightNav = () => {
   return (
@@ -18,12 +25,26 @@ const RightNav = () => {
       <div>
         <h4>Find Us on</h4>
         <ListGroup>
-          <ListGroup.Item> <FaFacebook/>  Facebook</ListGroup.Item>
-          <ListGroup.Item> <FaTwitter/> Twitter</ListGroup.Item>
-          <ListGroup.Item> <FaInstagram/> Instagram</ListGroup.Item>
+          <ListGroup.Item>
+            {" "}
+            <FaFacebook /> Facebook
+          </ListGroup.Item>
+          <ListGroup.Item>
+            {" "}
+            <FaTwitter /> Twitter
+          </ListGroup.Item>
+          <ListGroup.Item>
+            {" "}
+            <FaInstagram /> Instagram
+          </ListGroup.Item>
         </ListGroup>
       </div>
-      <QZone/>
+      <div>
+        <QZone />
+      </div>
+      <div>
+        <Ad />
+      </div>
     </div>
   );
 };
