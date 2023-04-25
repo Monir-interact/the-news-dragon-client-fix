@@ -13,8 +13,8 @@ import Ad from "../Ad/Ad";
 const RightNav = () => {
   return (
     <div>
-      <h4>Login With</h4>
-      <Button variant="outline-primary">
+      <h4 className="mt-4">Login With</h4>
+      <Button variant="outline-primary" className="mb-2">
         {" "}
         <FaGoogle /> Login with Google
       </Button>
@@ -23,7 +23,7 @@ const RightNav = () => {
         <FaGithub /> Login with GitHub
       </Button>
       <div>
-        <h4>Find Us on</h4>
+        <h4 className="mt-4">Find Us on</h4>
         <ListGroup>
           <ListGroup.Item>
             {" "}

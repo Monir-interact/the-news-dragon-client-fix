@@ -6,7 +6,7 @@ import Marquee from "react-fast-marquee";
 
 const Header = () => {
   return (
-    <Container>
+    <Container className="mt-4">
       <div className="text-center">
         <img src={logo} alt="" />
         <p className="text-secondary">
@@ -21,7 +21,7 @@ const Header = () => {
           text.
         </Marquee>
       </div>
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="lg" bg="info" variant="info" className="rounded">
         <Container>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
