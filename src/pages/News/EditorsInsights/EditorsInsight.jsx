@@ -1,8 +1,8 @@
 import React from "react";
 import { Card, Col, Row } from "react-bootstrap";
-import first from '../../../assets/qZone1.png';
-import second from '../../../assets/qZone2.png';
-import third from '../../../assets/qZone3.png';
+import first from '../../../assets/1.png';
+import second from '../../../assets/2.png';
+import third from '../../../assets/3.png';
 
 const EditorsInsight = () => {
   return (
