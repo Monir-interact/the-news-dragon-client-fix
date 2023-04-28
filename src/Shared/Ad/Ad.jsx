@@ -1,11 +1,13 @@
 import React from "react";
 import bg from "../../assets/bg.png";
 import { Figure } from "react-bootstrap";
+// import "./Ad.css";
+import '../../../src/App.css';
 
 const Ad = () => {
   return (
-    <div className="text-center position-relative z-index">
-      <div className="">
+    <div className="text-center position-relative">
+      <div className="text-up">
         <h4>Create an Amazing Newspaper</h4>
         <p>
           Discover thousands of options, easy to customize layouts, one-click to

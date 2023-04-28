@@ -1,0 +1,5 @@
+.text-up{
+    color: red;
+    position: absolute;
+    z-index: 1;
+}

@@ -1,0 +1,7 @@
+.text-up{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    top: 30%;
+    margin: 0 20px;
+}
