@@ -41,7 +41,7 @@ const route = createBrowserRouter([
         path: ":id",
         element: <Category />,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/categories/${params.id}`),
+          fetch(`https://the-news-dragon-server-monir-interact.vercel.app/categories/${params.id}`),
       },
     ],
   },
@@ -57,7 +57,7 @@ const route = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/news/${params.id}`),
+          fetch(`https://the-news-dragon-server-monir-interact.vercel.app/news/${params.id}`),
       },
     ],
   },
